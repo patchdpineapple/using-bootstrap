@@ -16,11 +16,8 @@ a, button {
     max-width: 1310px;
 }
 
-/* STYLES */
-
-
-
-/* Header */
+/**** STYLES ****/
+/*** Header ***/
 .btn-subscribe::after {
     margin-left: 5px;
     width: 8px;
@@ -50,8 +47,8 @@ a, button {
 
 .main-nav ul .nav-link {
     padding: 0;
-    transition: none;
     text-align: center;
+    transition: none;
 }
 
 .main-nav ul li a:hover, .trending-nav ul li a:hover {
@@ -106,9 +103,10 @@ a, button {
     color: #838287 !important;
     padding: 0 1rem;
     font-family: 'Roboto Condensed', sans-serif;
+    transition: none;
 }
 
-/* Mobile Header */
+/*** Mobile Header ***/
 .login-icon {
     font-size: 1.5rem;
 }
@@ -132,12 +130,14 @@ a, button {
     }
 }
 
-/* Content */
+/*** Content ***/
 .content-container {
     padding-left: 30px;
     padding-right: 30px;
 }
 
+/** Stories **/
+/* Featured and Top Stories*/
 .featured, .top, .opinions {
     min-height: 400px;
 }
@@ -154,7 +154,7 @@ a, button {
     background: lightseagreen;
 }
 
-.featured > h6, .top > h6, .opinions > div > h6{
+.featured > h6, .top > h6, .opinions > div > a > h6, .opinions > div > ul > a > h6{
     color: #9a9a9a;
 }
 
@@ -195,8 +195,9 @@ a, button {
     padding-bottom: 20px;
 }
 
-
+/* Opinions column*/
 .debater > div > div > div {
+    font-size: .9rem;
     color: #5c5c5c;
 }
 
@@ -232,8 +233,25 @@ a, button {
     margin: 6px auto;
 }
 
+/* opinion */
+.opinion {
+    border-bottom: 1px solid #dddddd;
+}
 
+.opinion:last-child {
+    border-bottom: none;
+}
+
+.opinion > div, .debater > div > div {
+    line-height: 21px;
+}
+
+.opinion > div > div {
+    color: gray;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
     
 
-/* Footer */
+/*** Footer ***/
 
