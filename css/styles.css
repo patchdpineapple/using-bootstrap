@@ -2,6 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 /* GLOBAL */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	color: #000;
+}
+
 body {
     background-color: #f4f5f6;
     /* background-color: steelblue; */
@@ -9,13 +25,13 @@ body {
 
 a, button {
     text-decoration: none;
-    color: black !important;
+    color: inherit !important;
     cursor: pointer !important;
     font-family: 'Roboto', sans-serif;
 }
 
 a:hover {
-    color: black !important;
+    color: inherit !important;
 }
 
 .container {
@@ -340,7 +356,7 @@ a:hover {
     padding: 30px;
 }
 
-.in-the-magazine .category {
+.in-the-magazine .category, .editors-pick .category{
     border-bottom: 1px solid lightgray;
 }
 
@@ -467,7 +483,7 @@ a:hover {
         padding: 1rem;
     }
 
-    .in-the-magazine .category {
+    .in-the-magazine .category, .editors-pick .category{
         border-bottom: none;
         padding-bottom: 0 !important;
         margin-bottom: 15px !important;
@@ -477,7 +493,7 @@ a:hover {
         font-size: 18px;
     }
 
-    .more-regular {
+    .more-regular, .editor-story {
         margin-bottom: 30px;
     }
 
