@@ -591,6 +591,78 @@ a:hover {
 }
 
 /*** Footer ***/
+.main-footer {
+    background-color: burlywood;
+    height: 300px;
+    padding: 30px;
+}
+
+.footer-logo {
+    border-bottom: 1px solid lightgray;
+}
+
+.footer-logo .logo-wrap, .footer-logo .copyright {
+    margin-bottom: 12px;
+} 
+
+.footer-logo .logo-wrap {
+    margin-right: 15px;
+}
+
+.footer-logo .copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.socials {
+    height:40px;
+}
+
+.socials ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 12px;
+}
+
+.socials ul li {
+    padding: 0 8px;
+}
+
+.socials ul li:first-child {
+    padding-left: 0;
+}
+
+.socials ul li:last-child {
+    padding-right: 0;
+}
+
+.social-link > svg {
+	display: inline-block;
+	height: 24px;
+	fill: #666;
+}
+
+.social-facebook > svg:hover {
+	fill: #3b5998;
+}
+
+.social-twitter > svg:hover {
+	fill: #1da1f2;
+}
+
+.social-instagram > svg:hover {
+	fill: #405de6;
+}
+
+.social-linkedin > svg:hover {
+	fill: #0077b5;
+}
+
+
+/****  Media Queries ****/
 @media (max-width: 991px) {
 
     /* Subscribe */
@@ -641,7 +713,6 @@ a:hover {
 
 }
 
-/****  Media Queries ****/
 @media (max-width: 767px) {
 
     /*** Header ***/
