@@ -52,6 +52,10 @@ a:hover {
 
 /**** STYLES ****/
 /*** Header ***/
+.main-header {
+    font-family: 'Roboto', sans-serif;
+}
+
 .btn-subscribe::after {
     margin-left: 5px;
     width: 8px;
@@ -144,6 +148,10 @@ a:hover {
 }
 
 /*** Mobile Header ***/
+.mobile-header {
+    font-family: 'Roboto', sans-serif;
+}
+
 .login-icon {
     font-size: 1.5rem;
 }
