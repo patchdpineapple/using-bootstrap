@@ -175,7 +175,6 @@ a:hover {
 .stories {
     padding-top: 20px !important;
     padding-bottom: 20px !important;
-
 }
 
 .featured, .top, .opinions {
@@ -391,7 +390,6 @@ a:hover {
 
 .more-special > a:hover {
     background-color: #dbdcdd;
-
 }
 
 .more-content-category > div {
@@ -399,7 +397,7 @@ a:hover {
 }
 
 .more-content-category > a {
-    color: #f72210;
+    color: #f72210 !important;
 }
 
 .more-regular-link:hover {
@@ -412,13 +410,16 @@ a:hover {
     height: 290px;
 }
 
+.more-special-2 > .image-wrap {
+    height: 320px;
+}
+
 .more-special-2 .img-category {
     background: #f72210;
 }
 
 .more-special .img-category > a {
     color: #f72210 !important;
-
 }
 
 .more-special-2 .img-category > a {
@@ -450,7 +451,6 @@ a:hover {
 .mc2-mini-story {
     border-bottom: 1px solid lightgray;
     padding-top: 16px;
-
 }
 
 .mini-stories > .mc2-mini-story:first-child {
@@ -562,7 +562,6 @@ a:hover {
     height: 38px;
     line-height: 38px;
     border-radius: 0;
-    
 }
 
 .newsletter-email:focus {
@@ -704,6 +703,15 @@ a:hover {
         margin-top: 0;
     }
 
+    /* More content 1 */
+    .more-regular > .image-wrap {
+        height: 20vw;
+    }
+
+    .more-special-2 > .image-wrap {
+        height: 20vw;
+    }
+
     /* Subscribe */
     .subscribe-block {
         position: relative;
@@ -820,6 +828,10 @@ a:hover {
 
     .more-regular-link > h5 {
         font-size: 16px;
+    }
+
+    .more-special-2 > .image-wrap {
+        height: auto;
     }
 
     /* More content 2 */
