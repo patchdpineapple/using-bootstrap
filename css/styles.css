@@ -359,6 +359,7 @@ a:hover {
     background-color: #fff;
     padding: 30px;
     padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .in-the-magazine .category, .editors-pick .category{
@@ -437,6 +438,7 @@ a:hover {
 /** More Content 2  **/
 .more-content-2 {
     background-color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 .mc2-category .title {
@@ -477,6 +479,7 @@ a:hover {
 .subscribe {
     background-color: #fff;
     padding-bottom: 30px !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 .subscribe .title {
